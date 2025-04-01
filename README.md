@@ -26,11 +26,16 @@ classDiagram
         +virtual displayInfo() pure
     }
     class Student {
-        +map<string,int> subjectScores
-        +string studentID
-        +double getAverage()
-        +operator+()
-    }
+        -int korean
+        -int english
+        -int math
+        -string studentID
+        +addScore(string, int)
+        +addScore(int, int, int)
+        +getAverage() double
+        +operator+(Student&) double
+        +displayInfo() override
+
     class Teacher {
         +string teachingSubject
         +string teacherID
@@ -64,8 +69,22 @@ double Student::operator+(const Student& other) {
 ### 3. 성적 관리 기능
 ```cpp
 // 단일/다중 과목 성적 추가
-void addScore(string subject, int score);
-void addScore(map<string, int> scores);
+// 1과목 입력 (과목명 + 점수)
+void addScore(string subject, int score) {
+    setScore(subject, score);
+}
+
+// 3과목 한번에 입력 (국/영/수 순서)
+void addScore(int kor, int eng, int math) {
+    korean = kor;
+    english = eng;
+    this->math = math;
+}
+
+// 사용 예시
+Student s;
+s.addScore("국어", 90);  // 단일 과목 입력
+s.addScore(80, 85, 90);  // 국/영/수 일괄 입력
 ```
 
 ## 📅 개발 일정
