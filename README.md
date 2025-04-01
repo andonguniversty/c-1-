@@ -1,4 +1,4 @@
-
+```markdown
 # 🎓 학생/선생님 관리 프로그램
 
 ## 📌 프로젝트 개요
@@ -15,7 +15,7 @@
 | 김무진 | 테스트/문서 | Teacher 클래스 구현, 보고서 작성 |
 
 ## 🏗️ 시스템 구조
-
+```mermaid
 classDiagram
     Person <|-- Student
     Person <|-- Teacher
@@ -35,10 +35,11 @@ classDiagram
         +string teachingSubject
         +string teacherID
     }
-
+```
 
 ## 🛠️ 핵심 기능
 ### 1. 다형성 구현
+```cpp
 void Person::displayInfo() = 0;  // 순수 가상 함수
 
 // Student 구현
@@ -50,7 +51,7 @@ void displayInfo() override {
 void displayInfo() override {
     cout << "교사: " << name << " (과목: " << teachingSubject << ")";
 }
-
+```
 
 ### 2. 연산자 오버로딩
 ```cpp
