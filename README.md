@@ -125,35 +125,33 @@ s.addScore(80, 85, 90);  // 국/영/수 일괄 입력
    ```
 
 ## 📄실행화면
-### 시작 메뉴
+|시작 화면|
+|---------|
+|![메뉴화면](https://github.com/andonguniversty/c-1-/blob/main/image/%EB%A9%94%EB%89%B4%ED%99%94%EB%A9%B4.PNG)|
 
-&nbsp;&nbsp;&nbsp;&nbsp;![메뉴화면](https://github.com/andonguniversty/c-1-/blob/main/image/%EB%A9%94%EB%89%B4%ED%99%94%EB%A9%B4.PNG)
+|입력| 학생 추가 |
+|----|-----------|
+|**1**|![학생추가](https://github.com/andonguniversty/c-1-/blob/main/image/%EA%B8%B0%EB%8A%A51.PNG)|
 
-### 학생 추가 메뉴
+|입력| 교사 추가 |
+|----|-----------|
+|**2**|![교사추가](https://github.com/andonguniversty/c-1-/blob/main/image/%EA%B8%B0%EB%8A%A52.PNG)|
 
-&nbsp;&nbsp;&nbsp;&nbsp;![학생추가](https://github.com/andonguniversty/c-1-/blob/main/image/%EA%B8%B0%EB%8A%A51.PNG)
+|입력| 과목 개별 입력 | 과목 일괄 입력 |
+|--|------------|-----------------|
+|**3**|![개별과목성적](https://github.com/andonguniversty/c-1-/blob/main/image/%EA%B8%B0%EB%8A%A53_1.PNG)|![일괄과목성적](https://github.com/andonguniversty/c-1-/blob/main/image/%EA%B8%B0%EB%8A%A53_2.PNG)|
 
-### 교사 추가 메뉴
+|입력| 개인 정보 열람 |
+|--|---------------|
+|**4**| ![개인정보열람](https://github.com/andonguniversty/c-1-/blob/main/image/%EA%B8%B0%EB%8A%A54.PNG) |
 
-&nbsp;&nbsp;&nbsp;&nbsp;![교사추가](https://github.com/andonguniversty/c-1-/blob/main/image/%EA%B8%B0%EB%8A%A52.PNG)
+|입력| 각 과목별 평균 | 모든 학생 총 과목 평균 |
+|---|----------|------------|
+|**5**| ![개별과목평균](https://github.com/andonguniversty/c-1-/blob/main/image/%EA%B8%B0%EB%8A%A55_1.PNG) | ![전체학생평균](https://github.com/andonguniversty/c-1-/blob/main/image/%EA%B8%B0%EB%8A%A55_2.PNG) |
 
-### 학생 점수 추가
-
-&nbsp;&nbsp;&nbsp;&nbsp;![개별과목성적](https://github.com/andonguniversty/c-1-/blob/main/image/%EA%B8%B0%EB%8A%A53_1.PNG)
-&nbsp;&nbsp;&nbsp;&nbsp;![일괄과목성적](https://github.com/andonguniversty/c-1-/blob/main/image/%EA%B8%B0%EB%8A%A53_2.PNG)
-
-### 개인 정보 열람
-
-&nbsp;&nbsp;&nbsp;&nbsp;![개인정보열람](https://github.com/andonguniversty/c-1-/blob/main/image/%EA%B8%B0%EB%8A%A54.PNG)
-
-### 과목별 모든 학생 평균
-
-&nbsp;&nbsp;&nbsp;&nbsp;![개별과목평균](https://github.com/andonguniversty/c-1-/blob/main/image/%EA%B8%B0%EB%8A%A55_1.PNG)
-&nbsp;&nbsp;&nbsp;&nbsp;![전체학생평균](https://github.com/andonguniversty/c-1-/blob/main/image/%EA%B8%B0%EB%8A%A55_2.PNG)
-
-### 프로그램 종료
-
-&nbsp;&nbsp;&nbsp;&nbsp;![종료](https://github.com/andonguniversty/c-1-/blob/main/image/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%20%EC%A2%85%EB%A3%8C.PNG)
+|입력| 프로그램 종료 |
+|--|---------------|
+|**0**| ![종료](https://github.com/andonguniversty/c-1-/blob/main/image/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%20%EC%A2%85%EB%A3%8C.PNG) |
 
 ## 프로젝트 소감
 
