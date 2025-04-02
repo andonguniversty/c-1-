@@ -1,4 +1,4 @@
-```markdown
+
 # 🎓 학생/선생님 관리 프로그램
 
 ## 📌 프로젝트 개요
@@ -15,7 +15,7 @@
 | 김무진 | 테스트/문서 | Teacher 클래스 구현, 보고서 작성 |
 
 ## 🏗️ 시스템 구조
-```mermaid
+```cpp
 classDiagram
     Person <|-- Student
     Person <|-- Teacher
@@ -110,7 +110,7 @@ s.addScore(80, 85, 90);  // 국/영/수 일괄 입력
 3. 성적 분석 알고리즘 강화
 
 ## 🚀소스코드
-```bash
+```cpp
 
 ```
 
