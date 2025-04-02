@@ -277,7 +277,7 @@ void displaySubjectAverage() {
 }
 // 메인 메뉴
 void showMenu() {
-    initializeTestData(); // 테스트 데이터 추가
+    //initializeTestData(); // 테스트 데이터 추가
 
     while (true) {
         cout << "\n===== 메뉴 =====\n";
